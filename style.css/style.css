@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
+.burger{
+    visibility: hidden;
+}
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 1440px;  */
+    height: 100px;
+    margin: 0 auto;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.firstnavber{
+    display: flex;
+}
+.first-button{
+    width: 197px;
+    padding: 10px 60px;
+    background-color: orange;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.linksection{
+    gap: 32px;
+    display: flex;
+}
+.home{
+    color: rgb(254, 163, 1);
+    
+}
+.about{
+    color:rgb(1, 172, 253);
+
+}
+.Facilities{
+    color: rgb(5, 212, 223);
+}
+.Admission{
+    color: rgb(93, 88, 239);
+}
+nav div a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+/* second section  */
+.herokid-section{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-right: 180px;
+    
+
+}
+.paragraph-section{
+    width: 600px;
+    height: 300px;
+    align-items:center;
+    align-content: center;
+    
+}
+.paragraph{
+    text-align: center;
+    justify-content: center;
+}
+.herokid-image{
+    margin-left: 152px;
+    
+}
+.header-section{
+    font-size: 56px;
+}
+.paragraph{
+    color:rgb(17, 17, 17);
+    font-size: 20px;
+}
+.second-button{
+    background-color: black;
+    padding: 10px 47px;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    font: weight 700px; 
+    font-size: 20px;
+    cursor: pointer;
+
+}
+/* third section  */
+.background-img{
+    background-image: url('../assets/bg.png');
+}
+.tinbuj{
+ 
+    text-align: center;
+    display: flex;
+    /* grid-template-columns: repeat(3,1fr); */
+    justify-content:center;
+    align-items: center;
+
+    gap: 50px;
+    margin-top: 80px;
+
+}
+.second-h1{
+  
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+      
+}
+.fast-cart{
+    width: 367.8px;
+    height: 476.78px;
+    justify-content: center;
+    padding-top: 90px ;
+    border: 1px solid #DEF5FF;
+    border-radius: 18px;
+    background: linear-gradient(#DEF5FF,white);
+   
+}
+.second-cart{
+    width: 367.8px;
+    height: 476.78px;
+    justify-content: center;
+    padding-top: 90px ;
+    border: 1px solid #FFF4DC;
+    border-radius: 18px;
+    background:linear-gradient(#FFF4DC,white)
+
+}
+.third-cart{
+    width: 367.8px;
+    height: 476.78px;
+    justify-content: center;
+    padding-top: 90px ;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+/* box-shadow: inset 0px 0px 9px 7.94px #F2E8FF; */
+
+
+background: linear-gradient( #F2E8FF,white);
+
+}
+a {
+    text-decoration: none;
+}
+.readblue{
+    font-size: 16px;
+    font-weight: bold;
+}
+.readyellow{
+    font-size: 16px;
+    font-weight: bold;
+}
+.read-more-violet{
+    font-size: 16px;
+    font-weight: bold;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    place-items: center;
+    margin-top: 97px;
+    gap: 10px;
+   
+    /* cursor: pointer; */
+    justify-items: center;
+}
+
+.arrow1{
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    place-items: center;
+    background-color: orange;
+    border-radius: 100%;
+    cursor: pointer;
+    justify-items: center;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+.arrow2{
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    place-items: center;
+    background-color: orange;
+    border-radius: 100%;
+    cursor: pointer;
+    justify-items: center;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:576px) {
+    .burger{
+        visibility: visible;
+        font-size: 40px;
+    }
+    .School{
+        visibility: hidden;
+    }
+    .firstnavber{
+        align-items: center;
+        justify-items: center;
+        justify-content: space-between;
+        gap: 150px;
+    }
+    .navber, .herokid-section{
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        margin: 16 auto;
+    }
+    .navber{
+        
+        border-bottom: 1px solid orange;
+        margin: 0px;
+    }
+    .herokid-image{
+        margin-left: 0px;
+        
+    }
+    .herokid-section{
+        flex-direction: column-reverse;
+        padding: 16px;
+    }
+    .first-button{
+        visibility: hidden;
+    }
+    .linksection{
+        visibility: hidden;
+    }
+    body{
+        margin: 0;
+    }
+    .second-h1{
+        /* margin-top: 20px; */
+    }
+    .tinbuj{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .paragraph-section{
+        width: 560px;
+    }
+    
+}
